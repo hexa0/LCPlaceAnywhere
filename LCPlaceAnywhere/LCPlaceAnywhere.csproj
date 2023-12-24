@@ -56,8 +56,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Paches\HangarShipDoorPatch.cs" />
-    <Compile Include="Paches\ShipBuildModeManagerPatch.cs" />
+    <Compile Include="Patches\HangarShipDoorPatch.cs" />
+    <Compile Include="Patches\ShipBuildModeManagerPatch.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
