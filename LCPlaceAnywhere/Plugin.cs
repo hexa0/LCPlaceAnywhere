@@ -32,7 +32,6 @@ namespace LCPlaceAnywhere
             mls.LogInfo($"Plugin {PLUGIN_GUID} is loaded!");
             harmony.PatchAll(typeof(LCPlaceAnywhereBase));
             harmony.PatchAll(typeof(ShipBuildModeManagerPatch));
-            harmony.PatchAll(typeof(HangarShipDoorPatch));
         }
     }
 }
